@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+.Roster {
+    font-family: 'PT Sans', sans-serif;;
+    display: grid;
+    grid-template-areas: "sidebar header" "sidebar main";
+    grid-template-columns: 1fr 2.3fr;
+    grid-template-rows: 120px 1fr;
+    min-height: 100vh;
+  }
+  
+  .Roster__nav {
+    background-color: #1c2237;
+    color: #fff;
+    grid-area: sidebar;
+    height: 100vh;
+    overflow: auto;
+  }
+  
+  .Roster__header {
+    background-color: #1c2237;
+    color: white;
+    font-family: 'PT Sans', sans-serif;;
+    grid-area: header;
+    padding-left: 16px;
+    padding-top: 32px;
+  }
+  
+  .Roster__header a {
+    color: #bdbdbd;
+  }
+  
+  .Roster__main {
+    background-color: #102541;
+    grid-area: main;
+    height: calc(100vh - 120px);
+    overflow: auto;
+  }
+  

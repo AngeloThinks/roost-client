@@ -1,0 +1,20 @@
+
+.StudentListMain ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .StudentListMain__button-container {
+    max-width: 380px;
+    margin: 0 10px;
+  }
+  
+  .StudentListMain__add-student-button {
+    margin: 0 auto 20px;
+  }
+  .StudentListMain__add-student-button:hover {
+    background-color: #29862e;
+    color: white;
+  }
+  
